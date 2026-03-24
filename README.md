@@ -26,10 +26,10 @@ This project implements and compares two fundamental graph algorithms—**Dijkst
 ### Bellman-Ford
 - **Best Case:** Ω(E) - Occurs if the graph is already relaxed.
 - **Average/Worst Case:** O(V * E) - Necessary when checking for all possible edge relaxations over V-1 iterations.
-
-- ## Milestone 1: Proposal
+  _________________________________________________________________________________________________________________________________________________________________________
+## Milestone 1: Proposal
 - * **Status:** Completed ✅
-- ## Milestone 2: Algorithm Comparison
+## Milestone 2: Algorithm Comparison
 * **Status:** Completed ✅
 * **Algorithms Implemented:** Dijkstra (Greedy) and Bellman-Ford (Dynamic Programming).
 * **Dataset:** 2015 Flight Delays (Kaggle).
