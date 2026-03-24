@@ -15,7 +15,7 @@ This project implements and compares two fundamental graph algorithms—**Dijkst
 | **Design Family** | Greedy | Dynamic Programming |
 | **Complexity (Avg)** | O((V + E) log V) | O(V * E) |
 | **Use Case** | Positive weights, high speed |
-| **Observed Time** | **31.45 ms** | *[Insert Bellman-Ford Time Here]* |
+| **Observed Time** | **31.45 ms** | **2.1** |
 
 ## 📈 Analysis (Best, Average, Worst Case)
 ### Dijkstra
