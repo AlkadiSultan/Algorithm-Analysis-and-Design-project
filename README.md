@@ -13,9 +13,9 @@ This project implements and compares two fundamental graph algorithms—**Dijkst
 | Feature | Dijkstra's Algorithm | Bellman-Ford Algorithm |
 | :--- | :--- | :--- |
 | **Design Family** | Greedy | Dynamic Programming |
-| **Complexity (Avg)** | O((V + E) log V) | O(V * E) |
-| **Use Case** | Positive weights, high speed |
-| **Observed Time** | **31.45 ms** | **2.1** |
+| **Complexity (Avg)** | O((E + V) \log V) | O(V * E) |
+| **Use Case** | Real-time routing |Networks with negative weights |
+| **Observed Time** | **31.45 ms** | **234.87 ms** |
 
 ## 📈 Analysis (Best, Average, Worst Case)
 ### Dijkstra
@@ -30,7 +30,7 @@ This project implements and compares two fundamental graph algorithms—**Dijkst
 ## Milestone 1: Proposal
 - * **Status:** Completed ✅
 ## Milestone 2: Algorithm Comparison
-* **Status:** Completed ✅
-* **Algorithms Implemented:** Dijkstra (Greedy) and Bellman-Ford (Dynamic Programming).
-* **Dataset:** 2015 Flight Delays (Kaggle).
-* **Key Finding:** Both algorithms confirmed identical shortest paths for 268 airports. Bellman-Ford converged in 2.14 ms (2 iterations), comparing efficiently against Dijkstra's 31.45 ms in this specific network topology.
+**Status**:Completed ✅
+**Algorithms Implemented:** Dijkstra (Greedy) and Bellman-Ford (Dynamic Programming).
+**Dataset:** 2015 Flight Delays (Kaggle).
+**Key Finding:** Both algorithms confirmed identical shortest paths for 268 airports. Bellman-Ford at 232.8218 ms, comparing efficiently against Dijkstra's 31.45 ms, the project demonstrates the theoretical performance gap between Greedy and Dynamic Programming approaches.
