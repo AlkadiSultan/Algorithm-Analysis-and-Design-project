@@ -15,7 +15,7 @@ This project implements and compares two fundamental graph algorithms—**Dijkst
 | **Design Family** | Greedy | Dynamic Programming |
 | **Complexity (Avg)** | O((E + V) \log V) | O(V * E) |
 | **Use Case** | Real-time routing |Networks with negative weights |
-| **Observed Time** | **31.45 ms** | **234.87 ms** |
+| **Observed Time** | **0.8147 ms** | **3.44 ms** |
 
 ## 📈 Analysis (Best, Average, Worst Case)
 ### Dijkstra
